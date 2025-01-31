@@ -459,7 +459,7 @@ export default function Dashboard() {
                         >
                           {item.split(":").map((x, index) => (
                             <li key={index} className="text-[#AA5D2C] text-sm">
-                              {x || "asdadsdadasd"}
+                              {x}
                             </li>
                           ))}
                         </ul>
